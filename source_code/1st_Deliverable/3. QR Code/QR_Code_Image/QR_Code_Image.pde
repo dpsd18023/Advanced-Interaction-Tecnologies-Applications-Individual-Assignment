@@ -1,23 +1,19 @@
-// Learning Processing
-// Daniel Shiffman
-// http://www.learningprocessing.com
+//QR Code
 
-// Example 15-1: "Hello World" images
-
-// Declaring a variable of type PImage
-// PImage is a class available from the Processing core library.
+//Δήλωση μεταβλητης τύπου PImage (Το PImage είναι μια κλάση διαθέσιμη από την Processing core library).
 PImage img; 
+//Εισαγωγή βιβλιοθήκης για το QR.
 import qrcodeprocessing.*;
+//Decoder αντικείμενο απο την prdecoder library.
 Decoder decoder;
 
 void setup() {
   size(600, 600);
-  // Make a new instance of a PImage by loading an image file
+  //Φόρτωση εικόνας "MyQR.png".
   img = loadImage("MyQR.png");
+  //Δημιουργία decoder αντικειμένου
   decoder = new Decoder(this);
-  PImage img = loadImage("MyQR.png");
-  decoder.decodeImage(img); 
-
+  decoder.decodeImage(img);
 }
 
 void decoderEvent(Decoder decoder) {
@@ -27,16 +23,8 @@ void decoderEvent(Decoder decoder) {
  
 } 
 
-/*
-void mousePressed() { 
-    link(statusMsg);
-  }
-
-*/
 
 void draw() {
   background(0);
-  // The image() function displays the image at a location
-  // in this case the point (0,0).
   image(img, 0, 0, width, height);
 }
