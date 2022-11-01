@@ -2,7 +2,7 @@
 
 ### First and Last Name: Γλέζος Γεώργιος
 ### University Registration Number: dpsd18023
-### GitHub Personal Profile: G. Glezos
+### GitHub Personal Profile: dpsd18023
 ### Advanced Interaction Tecnologies & Applications Github Personal Repository: https://github.com/dpsd18023/Advanced-Interaction-Tecnologies-Applications-Individual-Assignment
 
 # Introduction
