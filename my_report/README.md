@@ -50,6 +50,13 @@
    
       
    <b> 5. Augmented Reality: </b>
+   
+   Μελέτησα το ''My first AR exploration'', τις οδηγίες χρήσης της βιβλιοθήκης NyARToolkit και εγκατάστησα την τελευταία έκδοση της όπως μας ζητήθηκε. Έπειτα, άνοιξα το ''example simpleLite'' στο Processing και προσάρμοσα κατάλληλα τον κώδικα, ώστε με την επιτυχή αναγνώριση από την κάμερα του marker Hiro να εμφανίζεται η εικόνα που επέλεξα.
+   
+![MyAR](https://user-images.githubusercontent.com/115796095/199611055-91aa71f6-6d4e-4aae-9da9-cc67f15c471d.png)
+
+
+   
 
 # 2nd Deliverable
 
