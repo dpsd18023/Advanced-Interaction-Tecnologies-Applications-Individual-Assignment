@@ -8,17 +8,22 @@
 # Introduction
 
 # Summary
-
+ <a href=""></a>
 # 1st Deliverable
 
   <b> 1. Video Capture: </b>
  
  Ξεκίνησα ανοίγοντας και μελετώντας στο Processing το παράδειγμα  <a href="http://learningprocessing.com/examples/chp16/example-16-01-Capture">16-1</a> από το <a href="http://learningprocessing.com/">Learning Processing, 2nd Edition</a>. Μετά από μερικά ‘’Run’’ μου έβγαλε σφάλμα ‘’IllegalStateException: Could not find any devices’’ και έκανα αναζήτηση στο <a href="https://www.google.com/">Google</a>. Η λύση που βρήκα από την σελίδα <a href="discourse.processing.org">discourse.processing.org</a> ήταν να προσθέσω το κομμάτι κώδικα "pipeline:autovideosrc" μέσα στις παρενθέσεις () του ‘’video = new Capture(this, 640, 480);’’
  
- <a href=""></a>
+![VideoCapture](https://user-images.githubusercontent.com/115796095/199566744-2efd2538-bc14-4663-b793-310a97d1997c.png)
 
- 
+ <b> 2. Recorded video: </b>
   
+ <b> 3. QR Code: </b>
+    
+ <b> 4. QR Code - Camera Read: </b>
+      
+ <b> 5. Augmented Reality: </b>
 
 # 2nd Deliverable
 
