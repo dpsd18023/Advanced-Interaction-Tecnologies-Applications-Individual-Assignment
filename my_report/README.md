@@ -17,12 +17,16 @@
  
 ![VideoCapture](https://user-images.githubusercontent.com/115796095/199566744-2efd2538-bc14-4663-b793-310a97d1997c.png)
 
+
+
    <b> 2. Recorded video: </b>
  
    Μελέτησα τα παραδείγματα  Example 16-4 και Example 16-5 από το βιβλίο <a href="http://learningprocessing.com/">Learning Processing, 2nd Edition</a>, βρήκα  ένα βίντεο 10'' από το <a href="https://www.youtube.com">YouTube</a>, το κατέβασα από το <a href="https://it.onlinevideoconverter.pro/">onlinevideoconverter</a> και στην συνέχεια το έβαλα στο φάκελο ‘’data’’τον οποίο δημιούργησα μέσα στο φάκελο του project μου.
    Στην ουσία άνοιξα στο processing το “Example 16-4: Display QuickTime movie” από τις βιβλιοθήκες που είχαμε εισάγει στην τάξη και έπαιξα λίγο με τον κώδικα με τη βοήθεια του <a href="https://www.youtube.com/c/TheCodingTrain">The Coding Train</a> ώστε το βίντεο μου να παίζει σε επανάληψη και να μεταβάλει την ταχύτητα αναπαραγωγής του ανάλογα με τη θέση του κέρσορα στον άξονα ‘’X’’ (προς τα αριστερά η ταχύτητα μειώνεται ενώ προς τα δεξιά η ταχύτητα αυξάνεται).
  
 ![RecordedVideo](https://user-images.githubusercontent.com/115796095/199587063-07d70bbd-899f-452c-885f-edf47b152b90.png)
+  
+  
   
    <b> 3. QR Code: </b>
    
@@ -34,7 +38,16 @@
 ![OpenQR](https://user-images.githubusercontent.com/115796095/199600942-02470fa2-fdd6-4e6a-89f3-d0e4b7f91550.png)
 ![OpenURL](https://user-images.githubusercontent.com/115796095/199600976-003da81f-8775-4cfb-97c7-64856d667b8c.png)
 
+
+
    <b> 4. QR Code - Camera Read: </b>
+   
+   Άνοιξα το παράδειγμα ‘’QRcode  Reader’’ στο Processing, πρόσθεσα στο ‘’video = new Capture(this, 640, 480);’’ το "pipeline:autovideosrc"  για να μου αναγνωρίζει την κάμερα και στην συνέχεια άλλαξα το ‘’case 'f':’’ σε ‘’case 'ο':’’ από το Open και αντικατέστησα τον κώδικα που είχε μέσα με το ‘’link(statusMsg);’’ για να μου ανοίγει οποιοδήποτε URL από αποκωδικοποιημένο QRCode που έχουμε σκανάρει.
+   
+![Scan Decode](https://user-images.githubusercontent.com/115796095/199604691-bf70b8b4-5fa3-46cf-ae7e-2e8bea6bc63b.png)
+![OpenUrlWithKey](https://user-images.githubusercontent.com/115796095/199604712-4841eff3-91d8-49f7-86a2-439c8ddcc7dd.png)
+
+   
       
    <b> 5. Augmented Reality: </b>
 
