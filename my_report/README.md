@@ -13,9 +13,11 @@
 
   <b> 1. Video Capture: </b>
  
- Ξεκίνησα ανοίγοντας και μελετώντας στο Processing το παράδειγμα 16-1 από το <a href="http://learningprocessing.com/">Learning Processing, 2nd Edition</a>. Μετά από μερικά ‘’Run’’ μου έβγαλε σφάλμα ‘’IllegalStateException: Could not find any devices’’ και έκανα αναζήτηση στο <a href="https://www.google.com/">Google</a>. Η λύση που βρήκα από την σελίδα <a href="discourse.processing.org">discourse.processing.org</a> ήταν να προσθέσω το κομμάτι κώδικα "pipeline:autovideosrc" μέσα στις παρενθέσεις () του ‘’video = new Capture(this, 640, 480);’’
+ Ξεκίνησα ανοίγοντας και μελετώντας στο Processing το παράδειγμα  <a href="http://learningprocessing.com/examples/chp16/example-16-01-Capture">16-1</a> από το <a href="http://learningprocessing.com/">Learning Processing, 2nd Edition</a>. Μετά από μερικά ‘’Run’’ μου έβγαλε σφάλμα ‘’IllegalStateException: Could not find any devices’’ και έκανα αναζήτηση στο <a href="https://www.google.com/">Google</a>. Η λύση που βρήκα από την σελίδα <a href="discourse.processing.org">discourse.processing.org</a> ήταν να προσθέσω το κομμάτι κώδικα "pipeline:autovideosrc" μέσα στις παρενθέσεις () του ‘’video = new Capture(this, 640, 480);’’
  
  <a href=""></a>
+
+ 
   
 
 # 2nd Deliverable
