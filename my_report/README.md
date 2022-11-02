@@ -18,6 +18,12 @@
 ![VideoCapture](https://user-images.githubusercontent.com/115796095/199566744-2efd2538-bc14-4663-b793-310a97d1997c.png)
 
  <b> 2. Recorded video: </b>
+ 
+   Μελέτησα τα παραδείγματα  Example 16-4 και Example 16-5 από το βιβλίο <a href="http://learningprocessing.com/">Learning Processing, 2nd Edition</a>, βρήκα  ένα βίντεο 10’ από το <a href="https://www.youtube.com">YouTube</a>, το κατέβασα από το <a href="https://it.onlinevideoconverter.pro/">onlinevideoconverter</a> και στην συνέχεια το έβαλα στο φάκελο ‘’data’’τον οποίο δημιούργησα μέσα στο φάκελο του project μου.
+   Στην ουσία άνοιξα στο processing το “Example 16-4: Display QuickTime movie” από τις βιβλιοθήκες που είχαμε εισάγει στην τάξη και έπαιξα λίγο με τον κώδικα με  τη βοήθεια από βίντεο του <a href="https://www.youtube.com/c/TheCodingTrain">The Coding Train</a>.
+   
+   ![Uploading RecordedVideo.png…]()
+
   
  <b> 3. QR Code: </b>
     
