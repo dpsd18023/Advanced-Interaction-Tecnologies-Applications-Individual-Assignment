@@ -23,14 +23,17 @@
    Στην ουσία άνοιξα στο processing το “Example 16-4: Display QuickTime movie” από τις βιβλιοθήκες που είχαμε εισάγει στην τάξη και έπαιξα λίγο με τον κώδικα με τη βοήθεια του <a href="https://www.youtube.com/c/TheCodingTrain">The Coding Train</a> ώστε το βίντεο μου να παίζει σε επανάληψη και να μεταβάλει την ταχύτητα αναπαραγωγής του ανάλογα με τη θέση του κέρσορα στον άξονα ‘’X’’ (προς τα αριστερά η ταχύτητα μειώνεται ενώ προς τα δεξιά η ταχύτητα αυξάνεται).
  
 ![RecordedVideo](https://user-images.githubusercontent.com/115796095/199587063-07d70bbd-899f-452c-885f-edf47b152b90.png)
-
   
    <b> 3. QR Code: </b>
    
    Μέσα από το Processing -> Java -> Add Mode… -> Libraries έκανα λήψη της βιβλιοθήκης ‘’QRCode’’ του Daniel Shiffman. 
    Άνοιξα το ‘’Example 15-1: "Hello World" images’’, έφτιαξα το δικό μου QRCode με το GitHub URL μου στο [QR Code Generator](https://www.the-qrcode-generator.com/) και το αποθήκευσα σε μορφή ‘’png’’ στο φάκελο ''data'' που δημιούργησα μέσα στον φάκελο του project μου.
-Στη συνέχεια εμπνεύστηκα από το παράδειγμα ‘’QRcode Reader’’ και από την σελίδα [εδώ](https://shiffman.net/p5/qrcode-processing/). Έβαλα τον απαραίτητο κώδικα για να ανοίγει την εικόνα με το QR μου, να κάνει decoding και να ανοίγει αυτόματα το link.
-    
+Στη συνέχεια εμπνεύστηκα από το παράδειγμα ‘’QRcode Reader’’ και από την σελίδα [εδώ](https://shiffman.net/p5/qrcode-processing/). Έβαλα τον απαραίτητο κώδικα για να ανοίγει την εικόνα με το QR μου, να κάνει decoding και να ανοίγει αυτόματα το ανάλογο URL.
+
+![QRLib](https://user-images.githubusercontent.com/115796095/199600920-e4920cd6-5acc-4770-95b0-2abdc6bde162.png)
+![OpenQR](https://user-images.githubusercontent.com/115796095/199600942-02470fa2-fdd6-4e6a-89f3-d0e4b7f91550.png)
+![OpenURL](https://user-images.githubusercontent.com/115796095/199600976-003da81f-8775-4cfb-97c7-64856d667b8c.png)
+
    <b> 4. QR Code - Camera Read: </b>
       
    <b> 5. Augmented Reality: </b>
