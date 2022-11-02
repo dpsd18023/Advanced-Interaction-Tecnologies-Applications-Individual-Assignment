@@ -21,8 +21,8 @@ String statusMsg = "Waiting for an image";     // a string to return messages:
 Decoder decoder;
 
 void setup() {
-  size(400, 320);
-  video = new Capture(this, 400, 320);
+  size(640, 500);
+  video = new Capture(this, 640, 480, "pipeline:autovideosrc");
   video.start();
 
   // Create a decoder object
@@ -68,11 +68,16 @@ void keyReleased() {
     savedFrame.updatePixels();
     // Decode savedFrame
     decoder.decodeImage(savedFrame);
+    //link(statusMsg);
     break;
   case 'f':    // f runs a test on a file
+    //link(statusMsg);
     PImage preservedFrame = loadImage("qrcode.png");
     // Decode file
-    decoder.decodeImage(preservedFrame);
+    decoder.decodeImage(preservedFrame); 
+    break;
+    case 'o': 
+    link(statusMsg);
     break;
   }
 }
