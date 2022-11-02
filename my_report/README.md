@@ -17,7 +17,13 @@
  
 ![VideoCapture](https://user-images.githubusercontent.com/115796095/199566744-2efd2538-bc14-4663-b793-310a97d1997c.png)
 
+ <b> 2. Recorded video: </b>
   
+ <b> 3. QR Code: </b>
+    
+ <b> 4. QR Code - Camera Read: </b>
+      
+ <b> 5. Augmented Reality: </b>
 
 # 2nd Deliverable
 
