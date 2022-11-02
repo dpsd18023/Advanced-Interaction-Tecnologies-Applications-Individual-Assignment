@@ -9,9 +9,10 @@
 
 # Summary
 
-
 # 1st Deliverable
 
+  <b> 1. Video Capture: </b>
+  
 
 # 2nd Deliverable
 
