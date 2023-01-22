@@ -82,13 +82,26 @@
 
 0 -> για εισαγωγή της εικόνας, μετακίνηση και περιστροφή. (Σου δίνει την αίσθηση ότι κρατάς την εικόνα στα χέρια σου).
 
+![ZeRotation](https://user-images.githubusercontent.com/115796095/213934266-8e89e243-08cf-47d6-ab01-6d50532c7dda.png)
+
 1 -> για μεγέθυνση και σμίκρυνση.
+
+![OneIn](https://user-images.githubusercontent.com/115796095/213934268-06c496da-c86a-46c0-a5d9-de1cef1dec4f.png)
+![OneOut](https://user-images.githubusercontent.com/115796095/213934271-ad3249dc-7356-4a24-8fcd-9f82f4a9e7da.png)
 
 2, 3 & 4 -> για φίλτρα RGB. ( 2 Κόκκινο, 3 Πράσινο, 4 Μπλε)
 
+![Two](https://user-images.githubusercontent.com/115796095/213934276-9e4879a6-d826-419e-8896-8017ad2314c1.png)
+![Three](https://user-images.githubusercontent.com/115796095/213934444-98e89352-a461-4714-b25d-7892ed78caa2.png)
+![Four](https://user-images.githubusercontent.com/115796095/213934267-9b102dac-78fd-4732-8c16-886795ce57f9.png)
+
 6 -> για αδιαφάνεια.
 
+![Six](https://user-images.githubusercontent.com/115796095/213934275-577701af-1b80-4769-9818-5775357746d3.png)
+
 7 -> για αφαίρεση της φωτεινότητας.
+
+![Seven](https://user-images.githubusercontent.com/115796095/213934273-3c0b481e-07ba-432e-8453-63e045ae188b.png)
 
 
 Μέσα στο project υπάρχουν κάποια σχόλια για Background με εικόνα, εισαγωγή δεύτερης εικόνας και ένα εργαλείο περιστροφής της εικόνας που εν τέλει δεν προτίμησα γιατί δίνει μια αίσθηση περιστροφής του τραπεζιού επειδή η περιστροφή γινόταν από το σημείο 0,0 της οθόνης.
